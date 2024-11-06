@@ -9,11 +9,11 @@ terraform {
 
 provider "commercetools" {
   # Configuration options
-    project_key= "ff-commerce-project"
-    client_id= "9nuCOHdgZ2dl4ElVe6srReGo"
-    client_secret= "mYr7pdsWXPi2AGxQXm1R1mCUihtOyS7v"
+    project_key= "naga-demo-project1"
+    client_id= "0ragSXyuy3MBZfCnUicQ33Js"
+    client_secret= "V3WQoYs-LyhdgFcCMv2j8OEOI8e_cJRw"
     token_url= "https://auth.us-central1.gcp.commercetools.com"
     api_url= "https://api.us-central1.gcp.commercetools.com"
-    scopes= "manage_project:ff-commerce-project view_audit_log:ff-commerce-project manage_api_clients:ff-commerce-project view_api_clients:ff-commerce-project"
+    scopes= "manage_project:naga-demo-project1 view_audit_log:naga-demo-project1 manage_api_clients:naga-demo-project1 view_api_clients:naga-demo-project1"
 
 }
